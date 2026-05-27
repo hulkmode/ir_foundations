@@ -25,7 +25,7 @@ When parsing this kind of format with the streams of text approach with Bash, it
 Change directory into the m365_logs directory, the `07a21bf5-7a4c-4c81-bffe-5d45dfdaeb25.csv` file contains the downloaded audit log data. Then run the `ParseUAL.ps1` script and use the `-InputFile` flag to specify the log file. This script will parse out each AuditData value, creating a JSONL file named `parsed_ual.json` that we will use for further processing. Do not forget that TAB completion is also a feature in PowerShell and will help you when typing long commands and file names.
 
 ```
-cd C:\Users\Administrator\Desktop\lab_data\Incident_Response_Foundations\course_labs_data_20240911\course_labs\m365_logs\
+cd C:\Users\Administrator\Desktop\lab_data\Incident_Response_Foundations\course_labs_data\course_labs\m365_logs\
 .\ParseUAL.ps1 -InputFile .\07a21bf5-7a4c-4c81-bffe-5d45dfdaeb25.csv
 
 ```

@@ -2,11 +2,11 @@
 
 This lab will introduce you to parsing through text based data gathered from forensics data acquisition tools such as KAPE and Velociraptor.  These tools have the ability to not only collect the files necessary for an investigation but often the will parse known filetypes saving you time and allowing you to dive right into analysis.
 
-In this lab, you as an Incident Responder have been notified that a user received a Windows Defender message that something malicious was cleaned up but then their system has been acting strangely.  The KAPET riage module was used to gather data for you and it has been parsed into CSV files. Your goal will be to analyze the parsed data and make a determination if malware potentially ran on the system, or did Defender prevent the malware from execution.  We will look at the network portion of the potential incident in a subsequent lab.
+In this lab, you as an Incident Responder have been notified that a user received a Windows Defender message that something malicious was cleaned up but then their system has been acting strangely.  The KAPE Triage module was used to gather data for you and it has been parsed into CSV files. Your goal will be to analyze the parsed data and make a determination if malware potentially ran on the system, or did Defender prevent the malware from execution.  We will look at the network portion of the potential incident in a subsequent lab.
 
 We will use WSL and TADViewer for this lab.  First we will change into the location in our analysis system that contains the data.
 
-From the WSL prompt type `cd /mnt/c/Users/Administrator/Desktop/lab_data/Incident_Response_Foundations/course_labs_data/course_labs/endpoint-kape_dat/kape_module_out` to change to the directory that contains the authentication logs copied from the server in question.  Then use the `ls` to list the contents of the directory.  
+From the WSL prompt type `cd /mnt/c/Users/Administrator/Desktop/lab_data/Incident_Response_Foundations/course_labs_data/course_labs/endpoint-kape_data/kape_module_out` to change to the directory that contains the authentication logs copied from the server in question.  Then use the `ls` to list the contents of the directory.  
 
 Let's use some flags for the ls command to get some more details from the decompressed directories.  The 'l' switch will display long list format and the 'a' switch displays hidden folders.
 

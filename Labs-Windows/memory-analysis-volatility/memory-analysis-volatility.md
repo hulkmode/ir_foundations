@@ -6,7 +6,7 @@ From a host based perspective, one of the more important questions is what proce
 
 Open a PowerShell prompt and change directory into the directory containing the memory image.
 
- `cd .\Desktop\lab_data\Incident_Response_Foundations\course_labs_data\course_labs\memory-analysis-volatility\` 
+ `cd C:\Users\Administrator\Desktop\lab_data\Incident_Response_Foundations\course_labs_data\course_labs\memory-analysis-volatility\` 
  
 The 'physmem2.raw' file is a raw memory dump of a system that is suspected of having a backdoor running on it. The vr_nestat_enriched.zip file we will use to compare analysis techniques.
 
@@ -26,7 +26,7 @@ We will use [Volatility3](https://volatility3.readthedocs.io/en/stable/) for thi
 The first module we should run is the 'windows.info' to make sure Volatility can read the image file and that it seems to properly identify the Operating System as Windows 10.
 
 ```
-C:\tools\volatility3\volatility3-develop\vol.py -f .\physmem2.raw windows.info
+python C:\tools\volatility3\volatility3-develop\vol.py -f .\physmem2.raw windows.info
 
 ```
 
@@ -43,7 +43,7 @@ If you have some volatility experience, you may wish to stop the step-by-step la
 First use the 'windows.plist' module to output the running processes from the system we are investigating.  
 
 ```
-C:\tools\volatility3\volatility3-develop\vol.py -f .\physmem2.raw windows.pslist
+python C:\tools\volatility3\volatility3-develop\vol.py -f .\physmem2.raw windows.pslist
 ```
 
 
@@ -67,8 +67,8 @@ One problem you have likely just noticed is the output to the screen (also known
 While these files have been prestaged for you, to create them yourself you would use the following commands:
 
 ```
-C:\tools\volatility3\volatility3-develop\vol.py -f .\physmem2.raw windows.netscan > windows_netscan.txt
-C:\tools\volatility3\volatility3-develop\vol.py -f .\physmem2.raw windows.pslist > windows_pslist.txt
+python C:\tools\volatility3\volatility3-develop\vol.py -f .\physmem2.raw windows.netscan > windows_netscan.txt
+python C:\tools\volatility3\volatility3-develop\vol.py -f .\physmem2.raw windows.pslist > windows_pslist.txt
 
 ```
 
@@ -120,7 +120,7 @@ Since it appears that powershell.exe was the parent process for ssh.exe, we shou
 
 
 ```
-C:\tools\volatility3\volatility3-develop\vol.py -f .\physmem2.raw windows.cmdline.CmdLine
+python C:\tools\volatility3\volatility3-develop\vol.py -f .\physmem2.raw windows.cmdline.CmdLine
 ```
 
 &nbsp;
