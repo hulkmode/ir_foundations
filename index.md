@@ -1,41 +1,25 @@
-## Welcome to the Labs for Incident Response Foundations.
+## Welcome to the Labs for Incident Response Foundations
 
 
+### Labs
 
-&nbsp;
-
-### Linux Virtual Machine
-
-- [Lab 0: Virtual Machine Configuration](Labs/vm-setup/vm-setup.md)
-- [Lab 1: Linux Authentication Log Analysis ](Labs/sshd_logs/sshd_logs.md)
-- [Lab 2: Endpoint Logs KAPE Data Analysis](Labs/endpoint-kape_data/endpoint-kape_data.md)
-- [Lab 3: Host Memory Analysis with Volatility](Labs/memory-analysis-volatility/memory-analysis-volatility.md)
-- [Lab 4: Zeek Command Line Analysis Intro](Labs/zeek-command-line-intro/zeek-tht-intro.md)
-- [Lab 5: M365 Audit Log](Labs/m365_logs_intro/m365-log-analysis-linux.md)
-
-&nbsp;
-
-### Windows AWS AMI
-
-- [Lab 0: AWS EC2 Configuration](Labs-Windows/vm-setup/vm-setup.md)
-- [Lab 1: Linux Authentication Log Analysis ](Labs-Windows/sshd_logs/sshd_logs.md)
-- [Lab 2: Endpoint Logs KAPE Data Analysis](Labs-Windows/endpoint-kape_data/endpoint-kape_data.md)
-- [Lab 3: Host Memory Analysis with Volatility](Labs-Windows/memory-analysis-volatility/memory-analysis-volatility.md)
-- [Lab 4: Zeek Command Line Analysis Intro](Labs-Windows/zeek-command-line-intro/zeek-tht-intro.md)
-- [Lab 5: M365 Audit Log](Labs-Windows/m365_logs_intro/m365-log-analysis-windows.md)
+- [Lab 0: Linux Authentication Log Analysis ](Labs/sshd_logs/Lab0-Linux-Authentication-Log-Analysis.md)
+- [Lab 1: Endpoint KAPE Triage Data Analysis](Labs/kape/Lab1-Endpoint-KAPE-Triage-Data-Analysis.md)
+- [Lab 2: Memory Analysis with Volatility](Labs/memory-analysis-volatility/Lab2-Memory-Analysis-Volatility.md)
+- [Lab 3: Zeek Command Line Analysis Intro](Labs/zeek-command-line-intro/Lab3-Zeek-CommandLine-Analysis.md)
+- [Lab 4: M365 Audit Log Analysis](Labs/m365/Lab4-M365-Log-Analysis.md)
 
 ### Optional Labs
 
 - [Optional: Kape Evidence Collection](Labs/kape-evidence-collection/kape-evidence-collection.md)
 
-&nbsp;
 
 Check out our other training at:
 
 
 
-https://wildwesthackinfest.com/online-training/
+https://www.antisyphontraining.com/
 
 
 
-![wwhf_logo](images/wwhf_logo.png)
+![antisyphon_logo](images/antisyphon_logo.png)

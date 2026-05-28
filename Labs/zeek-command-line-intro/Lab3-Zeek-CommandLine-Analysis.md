@@ -1,4 +1,4 @@
-## Zeek Command Line Analysis with THT
+## Zeek Command Line Analysis
 
 This lab will introduce Zeek logs and how to parse them with the Linux command line.  Since Zeek logs are text based, there are built in commands in Linux that are very useful for processing them.  It is possible to complete and entire investigation of events in Zeek logs just using the command line, in fact, in many ways it is the preferred method.
 
@@ -39,7 +39,7 @@ zcat conn.12_00_00-13_00_00.log.gz | head
 One of the advantages of the TSV format is the ability to easily filter out a column of data.  The `zeek-cut` command facilitates this.  Run the following command to extract the value for each row in the 'service' column.  
 
 ```
-zcat conn.12_00_00-13_00_00.log.gz | zeek-cut service | sort | uniq
+zcat conn.12_00_00-13_00_00.log.gz | zeek-cut service
 
 ```
 

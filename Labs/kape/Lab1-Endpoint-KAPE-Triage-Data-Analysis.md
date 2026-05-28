@@ -1,4 +1,4 @@
-## Endpoint Logs Analysis KAPE Triage Data Collection
+## Lab 1: Endpoint KAPE Triage Data Analysis
 
 This lab will introduce you to parsing through text based data gathered from forensics data acquisition tools such as KAPE and Velociraptor.  These tools have the ability to not only collect the files necessary for an investigation but often the will parse known filetypes saving you time and allowing you to dive right into analysis.
 
