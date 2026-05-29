@@ -1,4 +1,4 @@
-# Velociraptor Offline Collector
+# LAB 2:0 - Velociraptor Offline Collector
 
 ## Objective
 
@@ -103,7 +103,7 @@ VR provides the ability to create offline collectors via CLI using the `collecto
 
 *What comes after this lab?*
 
-- TODO
+- [Lab 3:0 Endpoint KAPE Triage Data Analysis](/Labs/Lab03/kape/Endpoint-KAPE-Triage-Data-Analysis.md)
 
 ---
 

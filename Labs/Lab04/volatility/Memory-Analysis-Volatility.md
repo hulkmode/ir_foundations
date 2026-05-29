@@ -1,4 +1,4 @@
-## Introduction to Memory Analysis Using Volatility
+## LAB 4:0 - Memory Analysis Using Volatility
 
 The information contained in a computer's volatile data (or in the RAM of the computer) can be vital to an incident responder.  We call it volatile for a reason, it will change while the computer is operation, but probably most importantly for an investigation, if we power off the computer, we will lose the data that we may need to answer certain questions.
 
@@ -140,3 +140,19 @@ For more information on what the switches of the command do check out this blog 
 If you still have time left in the lab take a look at the `vr_netstat_enriched.zip` file in the same directory.  This represents output from a Velociraptor hunt using the Windows Netstat Enriched module.  See if you can find the suspicious process in less time than it would take using the same techniques with TADViewer from the previous lab.
 
 This will likely take less time on a per host basis and illustrates the 'Cast a Wide Net' versus the in-depth analysis approach with Volatility and a single host.
+
+---
+
+## Next Steps
+
+*What comes after this lab?*
+
+- [Lab 5:0 Zeek Command Line Analysis Intro](/Labs/Lab05/zeek/Zeek-CommandLine-Analysis.md)
+
+---
+
+## References
+- [Volatility3](https://volatility3.readthedocs.io/en/stable/)
+- [BHIS SSH Blog](https://www.blackhillsinfosec.com/ssh-dont-tell-them-i-am-not-https/) 
+
+© 2026 DEATHGroup Labs LLC. All rights reserved.

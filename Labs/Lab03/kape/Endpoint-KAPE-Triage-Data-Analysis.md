@@ -1,4 +1,4 @@
-## Lab 03: Endpoint KAPE Triage Data Analysis
+# Lab 3:0 - Endpoint KAPE Triage Data Analysis
 
 This lab will introduce you to parsing through text based data gathered from forensics data acquisition tools such as KAPE and Velociraptor.  These tools have the ability to not only collect the files necessary for an investigation but often the will parse known filetypes saving you time and allowing you to dive right into analysis.
 
@@ -118,3 +118,17 @@ Microsoft Sysmon was installed on this system and was configured to log network 
 &nbsp;
 
 Notice that the timestamps for this behavior are 30 minutes prior to the Defender log entries for the host.  We still to not have a clear picture of exactly what happened, but we do have enough information to consider this host likely compromised.  However, at this point in the investigation I would want to take a look at the associated network logs, we will do that in a subsequent lab.
+
+---
+
+## Next Steps
+
+*What comes after this lab?*
+
+- [Lab 4:0 Memory Analysis with Volatility](/Labs/Lab04/volatility/Memory-Analysis-Volatility.md)
+
+---
+
+## References
+
+© 2026 DEATHGroup Labs LLC. All rights reserved.

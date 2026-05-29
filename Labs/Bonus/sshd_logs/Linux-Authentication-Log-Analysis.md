@@ -1,4 +1,4 @@
-## Lab 0 Linux Authentication Log Analysis
+## Linux Authentication Log Analysis
 
 This lab will introduce analyzing data with the Linux command line. Yes, Linux from a Windows machine. This is made possible from the [Windows Subsystem for Linux WSL](https://learn.microsoft.com/en-us/windows/wsl/about).
 

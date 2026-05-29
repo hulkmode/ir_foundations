@@ -83,7 +83,7 @@ cd ~\Downloads; curl [https://download.sysinternals.com/files/Sysmon.zip](https:
 
 *What comes after this lab?*
 
-- [Lab 0:2 - Elastic Setup](Lab%200%202%20-%20Elastic%20Setup%2024f86e25cbe581a0be6ae3ffa5a669e1.md)
+- [Lab 0:2 - Elastic Setup](Lab%200%202%20-%20Elastic%20Setup.md)
 
 ---
 

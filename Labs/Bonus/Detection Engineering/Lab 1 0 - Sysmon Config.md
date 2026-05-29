@@ -99,8 +99,12 @@ Example Output:
 ## Next Steps
 
 *What comes after this lab?*
+### Next IR Foundations Lab
+- [Lab 1:0 - Advertisement to Access](/Labs/Lab01/metasploit/Lab%201%200%20-%20Advertisement%20to%20Access.md)
 
-- [Lab 1:1 - Detect Random New Service](Lab%201%201%20-%20Detect%20Random%20New%20Service%2025086e25cbe580838ebaf685f2e0995f.md)
+
+### Bonus Detection Engineering Labs
+- [BLab 1:1 - Detect Random New Service](/Labs/Bonus/Detection%20Engineering/Lab%201%201%20-%20Detect%20Random%20New%20Service.md)
 
 ---
 

@@ -1,4 +1,4 @@
-## Zeek Command Line Analysis
+# LAB 5:0 - Zeek Command Line Analysis
 
 This lab will introduce Zeek logs and how to parse them with the Linux command line.  Since Zeek logs are text based, there are built in commands in Linux that are very useful for processing them.  It is possible to complete and entire investigation of events in Zeek logs just using the command line, in fact, in many ways it is the preferred method.
 
@@ -174,3 +174,18 @@ zcat conn.12_00_00-13_00_00.log.gz | zeek-cut id.orig_h id.resp_h orig_bytes res
 We can see that the majority of the requests and response are 865 bytes and 6 KB in size with two that have around a 270 KB response.  This doesn't seem like a lot of data sent, so I think the answer would be no, data was not exfiltrated.
 
 However it does seem like there was an active command and control channel for 17 minutes, so Defender may not have been able to completely prevent the malware from running.
+
+---
+
+## Next Steps
+
+*What comes after this lab?*
+
+- [Lab 6:0 M365 Audit Log Analysis](/Labs/Lab06/m365/M365-Log-Analysis.md)
+
+---
+
+## References
+- [Corelight](https://corelight.com/products/zeek)
+- [Zeek CheatSheet](https://github.com/corelight/zeek-cheatsheets/blob/master/Corelight-Zeek-Cheatsheet-8.0.pdf)
+© 2026 DEATHGroup Labs LLC. All rights reserved.

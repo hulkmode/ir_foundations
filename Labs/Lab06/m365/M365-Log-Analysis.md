@@ -1,4 +1,4 @@
-## M356 Audit Log Analysis
+# LAB 6:0 - M356 Audit Log Analysis
 
 This lab will introduce the [Microsoft M365 audit log](https://learn.microsoft.com/en-us/purview/audit-log-activities) (also known as the M365 Unified Audit Log) and command line parsing with PowerShell. The M365 audit log is a centralized record of user and administrative activities within an M365 environment, capturing critical actions across various services such as Exchange Online, SharePoint, OneDrive, Teams, and Azure AD. It provides detailed information on login events, file access, permission changes, and administrative tasks, making it essential for security investigations. Incident Responders can trace suspicious behavior, identify potential insider threats, or detect unauthorized access.
 
@@ -165,3 +165,19 @@ Open the resulting `ual.tsv` file in TADViewer.  Create a filter to view all the
 <img src="images/m365_logs_intro_12.png"  width="90%" height="60%">
 
 &nbsp;
+
+---
+
+## Next Steps
+
+*What comes after this lab?*
+
+![](https://media3.giphy.com/media/v1.Y2lkPTc5NDFmZGM2cDA5cWh4a3h2b3R6OWc5NzNnNzhrZnJqMThtdnFldmgzOXdpYmgzbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/upg0i1m4DLe5q/giphy.gif)
+
+---
+
+## References
+- [Microsoft M365 audit log](https://learn.microsoft.com/en-us/purview/audit-log-activities) 
+- [M365 Purview Audit Search](https://learn.microsoft.com/en-us/purview/audit-search?tabs=microsoft-purview-portal)
+
+© 2026 DEATHGroup Labs LLC. All rights reserved.

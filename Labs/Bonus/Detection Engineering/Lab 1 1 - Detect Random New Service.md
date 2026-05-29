@@ -110,8 +110,11 @@ Quick note, you will have to modify this rule later 😉
 ## Next Steps
 
 *What comes after this lab?*
+### Next IR Foundations Lab
+- [Lab 1:0 - Advertisement to Access](/Labs/Lab01/metasploit/Lab%201%200%20-%20Advertisement%20to%20Access.md)
 
-- [Lab 1:2 - Detect DNS Raw IP](Lab%201%202%20-%20Detect%20DNS%20Raw%20IP%2025186e25cbe5802fb1afdac6a7817976.md)
+### Bonus Detection Engineering Labs
+- [BLab 1:3 - Detect DNS Raw IP](/Labs/Bonus/Detection%20Engineering/Lab%201%202%20-%20Detect%20DNS%20Raw%20IP.md)
 
 ---
 

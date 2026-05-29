@@ -80,7 +80,7 @@ Tip: If copying and paste is not working try using a different browser such as G
 
 *What comes after this lab?*
 
-- [Lab 0:1 - Sysmon Install](Lab%200%201%20-%20Sysmon%20Install%2024f86e25cbe581de9883ddaf7cd15ee3.md)
+- [Lab 0:1 - Sysmon Install](Lab%200%201%20-%20Sysmon%20Install.md)
 
 ---
 

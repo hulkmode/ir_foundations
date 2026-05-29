@@ -272,7 +272,12 @@ Example of field name search bar:
 
 *What comes after this lab?*
 
-- [Lab 1:0 - Sysmon Config](../Detection%20Engineering%20Labs/Lab%201%200%20-%20Sysmon%20Config%2025086e25cbe580419b96c27172dd272d.md)
+### Next IR Foundations Lab
+- [Lab 1:0 - Advertisement to Access](/Labs/Lab01/metasploit/Lab%201%200%20-%20Advertisement%20to%20Access.md)
+
+
+### Bonus Detection Engineering Labs 
+- [BLab 1:0 - Sysmon Config](/Labs/Bonus/Detection%20Engineering/Lab%201%200%20-%20Sysmon%20Config.md)
 
 ---
 

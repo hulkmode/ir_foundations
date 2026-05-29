@@ -28,11 +28,11 @@
 1. Navigate and click on `Assets` from the Security panel on the left hand side and then click on `Browse integrations`
 2. Search for `custom logs de` in the search bar and click on `Custom Logs (Deprecated)`. Even though this is deprecated it still works great. I have to do some testing on their new method of ingest before converting Echo<Threat over to it.
 
-![image.png](Bonus%20Lab%20-%20Echo%20Threat/image.png)
+![image.png](/Labs/Bonus/Detection%20Engineering/Lab%201%203%20-%20Echo%20Threat/image.png)
 
 1. Click on the `Add Custom Logs (Deprecated)` button
 
-![image.png](Bonus%20Lab%20-%20Echo%20Threat/image%201.png)
+![image.png](/Labs/Bonus/Detection%20Engineering/Lab%201%203%20-%20Echo%20Threat/image%201.png)
 
 1. Input the below file path Echo<Threat will be writing its logs to disk at
 
@@ -44,7 +44,7 @@ c:\users\administrator\downloads\echothreat\output\*.ndjson
 
 1. Keep the Dataset name as `generic` and click on `Advanced options`
 
-![image.png](Bonus%20Lab%20-%20Echo%20Threat/image%202.png)
+![image.png](/Labs/Bonus/Detection%20Engineering/Lab%201%203%20-%20Echo%20Threat/image%202.png)
 
 1. Enter the following Processors configurations under the Processors section:
     
@@ -69,15 +69,15 @@ c:\users\administrator\downloads\echothreat\output\*.ndjson
 
 Example:
 
-![image.png](Bonus%20Lab%20-%20Echo%20Threat/image%203.png)
+![image.png](/Labs/Bonus/Detection%20Engineering/Lab%201%203%20-%20Echo%20Threat/image%203.png)
 
 1. Click on `Existing host`, ensure our `Workshop Policy` is present and click on `Save and continue`
 
-![image.png](Bonus%20Lab%20-%20Echo%20Threat/image%204.png)
+![image.png](/Labs/Bonus/Detection%20Engineering/Lab%201%203%20-%20Echo%20Threat/image%204.png)
 
 1. Lets update our `Windows` data view under `Discover` by clicking on the `Windows` data view and then clicking on `Manage this data view`
 
-![image.png](Bonus%20Lab%20-%20Echo%20Threat/image%205.png)
+![image.png](/Labs/Bonus/Detection%20Engineering/Lab%201%203%20-%20Echo%20Threat/image%205.png)
 
 1. Update the Index pattern to include `logs-generic*` as shown below
 
@@ -89,7 +89,7 @@ logs-windows*,logs-system*,logs-generic*
 
 Example:
 
-![image.png](Bonus%20Lab%20-%20Echo%20Threat/image%206.png)
+![image.png](/Labs/Bonus/Detection%20Engineering/Lab%201%203%20-%20Echo%20Threat/image%206.png)
 
 # Step 2: Setup Echo<Threat on Windows VM
 
@@ -104,7 +104,7 @@ cd echothreat
 
 Example Output:
 
-![image.png](Bonus%20Lab%20-%20Echo%20Threat/image%207.png)
+![image.png](/Labs/Bonus/Detection%20Engineering/Lab%201%203%20-%20Echo%20Threat/image%207.png)
 
 1. Install Echo<Threat python requirements with the following command
     
@@ -115,7 +115,7 @@ Example Output:
     ```
     
 
-![image.png](Bonus%20Lab%20-%20Echo%20Threat/image%208.png)
+![image.png](/Labs/Bonus/Detection%20Engineering/Lab%201%203%20-%20Echo%20Threat/image%208.png)
 
 1. Review Echo<Threat help by running the following command
 
@@ -125,7 +125,7 @@ Command:
 python.exe .\[echothreat.py](http://echothreat.py/) --help
 ```
 
-![image.png](Bonus%20Lab%20-%20Echo%20Threat/image%209.png)
+![image.png](/Labs/Bonus/Detection%20Engineering/Lab%201%203%20-%20Echo%20Threat/image%209.png)
 
 # Step 3: Utilize Echo<Threat to verify Random Service Detect
 
@@ -139,7 +139,7 @@ python.exe .\[echothreat.py](http://echothreat.py/) -ls security -eid 4697 -tf e
 
 Example Output:
 
-![image.png](Bonus%20Lab%20-%20Echo%20Threat/image%2010.png)
+![image.png](/Labs/Bonus/Detection%20Engineering/Lab%201%203%20-%20Echo%20Threat/image%2010.png)
 
 # Step 4: Utilize Echo<Threat to verify DNS Raw IP Detect
 
@@ -153,7 +153,7 @@ python.exe .\[echothreat.py](http://echothreat.py/) -ls sysmon -eid 22 -tf elast
 
 Example Output:
 
-![image.png](Bonus%20Lab%20-%20Echo%20Threat/image%2011.png)
+![image.png](/Labs/Bonus/Detection%20Engineering/Lab%201%203%20-%20Echo%20Threat/image%2011.png)
 
 ![](https://media1.giphy.com/media/v1.Y2lkPTc5NDFmZGM2NmowdzM2dWN5NXloenJ1ZWRzazVoM2huaXJhcDFvNjJkN2Ntb2JudSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IykI5OLMhjtnB60/giphy.gif)
 
@@ -168,19 +168,16 @@ If you want to make value changes in the logs, change them in the `user config f
 
 ---
 
-## Cleanup Instructions
-
-*How to restore the lab environment.*
-
-- Pivot over to MetaCTF and click on `Stop All Machines`
-
-![image.png](Bonus%20Lab%20-%20Echo%20Threat/image%2012.png)
-
----
 
 ## Next Steps
 
 *What comes after this lab?*
+
+### Next IR Foundations Lab
+- [Lab 1:0 - Advertisement to Access](/Labs/Lab01/metasploit/Lab%201%200%20-%20Advertisement%20to%20Access.md)
+
+### Bonus Detection Engineering Labs
+
 
 ![](https://media3.giphy.com/media/v1.Y2lkPTc5NDFmZGM2cDA5cWh4a3h2b3R6OWc5NzNnNzhrZnJqMThtdnFldmgzOXdpYmgzbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/upg0i1m4DLe5q/giphy.gif)
 
@@ -191,4 +188,4 @@ If you want to make value changes in the logs, change them in the `user config f
 - https://www.youtube.com/watch?v=-fQFkrZAWmM
 - https://github.com/hulkmode/echothreat
 
- © 2025 DEATHGroup Labs LLC. All rights reserved.
+ © 2026 DEATHGroup Labs LLC. All rights reserved.

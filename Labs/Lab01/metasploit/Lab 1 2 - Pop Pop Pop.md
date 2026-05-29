@@ -282,23 +282,7 @@ The shorthand version of background command is bg
 
 *What comes after this lab?*
 
-- [Bonus Lab - Echo<Threat](/Labs/Bonus/Bonus%20Lab%20-%20Echo%20Threat.md)
-
-<aside>
-💡
-
-If we are out of time and cant do the Bonus Lab above
-
-</aside>
-
-## Cleanup Instructions
-
-*How to restore the lab environment.*
-
-- Pivot over to MetaCTF and click on `Stop All Machines`
-
-![image.png](Lab%201%202%20-%20Pop%20Pop%20Pop/image%2013.png)
-
+- [Lab 2:0 Velociraptor Offline Collector](/Labs/Lab02/velociraptor/Velociraptor%20Offline%20Collector.md)
 ---
 
 ## References

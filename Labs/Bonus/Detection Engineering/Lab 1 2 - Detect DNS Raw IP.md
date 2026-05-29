@@ -124,7 +124,11 @@ Example:
 
 *What comes after this lab?*
 
-- [Lab 2:0 - Advertisement to Access](../Attack%20Labs/Lab%202%200%20-%20Advertisement%20to%20Access%2024f86e25cbe581afa128dff3b1f8337e.md)
+### Next IR Foundations Lab
+- [Lab 1:0 - Advertisement to Access](/Labs/Lab01/metasploit/Lab%201%200%20-%20Advertisement%20to%20Access.md)
+
+### Bonus Detection Engineering Labs
+- [BLab 1:3 - Echo Threat](/Labs/Bonus/Detection%20Engineering/Lab%201%203%20-%20Echo%20Threat.md)
 
 ---
 
