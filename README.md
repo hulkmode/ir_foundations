@@ -8,14 +8,14 @@
 - [Lab 0:1 Sysmon Install](Labs/Lab00/setup/Lab%200%201%20-%20Sysmon%20Install.md)
 - [Lab 0:2 Elastic Setup](Labs/Lab00/setup/Lab%200%202%20-%20Elastic%20Setup.md)
 
-#### Become The Attacker
+#### Attacker
 - [Lab 1:0 Advertisement to Access](Labs/Lab01/metasploit/Lab%201%200%20-%20Advertisement%20to%20Access.md)
 - [Lab 1:1 Enter Meterpreter](Labs/Lab01/metasploit/Lab%201%201%20-%20Enter%20Meterpreter.md)
 - [Lab 1:2 Pop Pop Pop](Labs/Lab01/metasploit/Lab%201%202%20-%20Pop%20Pop%20Pop.md)
 
 
 
-#### Become The Responder
+#### Responder
 - [Lab 2:0 Velociraptor Offline Collector](Labs/Lab02/velociraptor/Velociraptor%20Offline%20Collector.md)
 - [Lab 3:0 Endpoint KAPE Triage Data Analysis](Labs/kape/Endpoint-KAPE-Triage-Data-Analysis.md)
 - [Lab 4:0 Memory Analysis with Volatility](Labs/Lab04/volatility/Memory-Analysis-Volatility.md)
@@ -26,7 +26,7 @@
 
 ### Bonus Labs
 
-#### Become The Detection Engineer
+#### Detection Engineer
 - [BLab 1:0 - Sysmon Config](/Labs/Bonus/Detection%20Engineering/Lab%201%200%20-%20Sysmon%20Config.md)
 - [BLab 1:1 - Detect Random New Service](/Labs/Bonus/Detection%20Engineering/Lab%201%201%20-%20Detect%20Random%20New%20Service.md)
 - [BLab 1:3 - Detect DNS Raw IP](/Labs/Bonus/Detection%20Engineering/Lab%201%202%20-%20Detect%20DNS%20Raw%20IP.md)
