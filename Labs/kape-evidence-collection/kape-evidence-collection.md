@@ -1,2 +1,0 @@
-# kape-evidence-collection
-
