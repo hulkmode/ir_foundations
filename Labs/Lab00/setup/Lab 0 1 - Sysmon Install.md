@@ -56,7 +56,7 @@ Don’t do this as a Production rollout method. This is great for quick and easy
     Command:
     
     ```powershell
-    curl [https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml](https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml) -o sysmon.xml
+    curl https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml -o sysmon.xml
     ```
     
 
@@ -72,7 +72,7 @@ Don’t do this as a Production rollout method. This is great for quick and easy
 ### Cheat code: PowerShell one-liner
 
 ```powershell
-cd ~\Downloads; curl [https://download.sysinternals.com/files/Sysmon.zip](https://download.sysinternals.com/files/Sysmon.zip) -o sysmon.zip; Expand-Archive sysmon.zip . -f; curl [https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml](https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml) -o sysmon.xml; sleep 10; .\Sysmon.exe -accepteula -i sysmon.xml
+cd ~\Downloads; curl https://download.sysinternals.com/files/Sysmon.zip -o sysmon.zip; Expand-Archive sysmon.zip . -f; curl https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml -o sysmon.xml; sleep 10; .\Sysmon.exe -accepteula -i sysmon.xml
 ```
 
 ![](https://media1.tenor.com/m/Czfb_LkSDL4AAAAC/fancy-homer.gif)
