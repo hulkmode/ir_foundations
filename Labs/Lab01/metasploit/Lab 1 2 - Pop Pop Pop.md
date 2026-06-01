@@ -81,7 +81,7 @@ Example of new session:
 <aside>
 💡
 
-If your session is dying it is possible, you may have a mix and matched your handler and shell payload especially if you might have adventured off and created other payloads. If this is the case see [Meterpreter Troubleshooting](Meterpreter%20Troubleshooting%2024f86e25cbe58029813bd0fc37f6637d.md) 
+If your session is dying it is possible, you may have a mix and matched your handler and shell payload especially if you might have adventured off and created other payloads. If this is the case see [Meterpreter Troubleshooting](Meterpreter%20Troubleshooting.md) 
 
 </aside>
 
