@@ -98,7 +98,7 @@ What does that really mean? Lets break down the differences.
 - `Stageless` payload is when a payload is delivered all at once (the entire shell payload). The problem with stageless is its easier for EDR/AVs to identify.
 - **`Staged`** payload breaks up our shell into multiple smaller pieces. The first part is the stager and it makes the initial callback to the attackers machine. After the connection is established the full shell gets sent. This approach might be able to help slip by EDR/AVs. Also to note, there can be several stages that could occur before the full shell is initiated. Depends on how the attacker wants to operate.
 
-1. This lab we will be creating a stageless payload to limit any issues and save time for the workshop.  Metasploit created a tool called `msfvenom` to generate custom payloads. You can create executables and scripts that when ran on the target system they will connect to a Metasploit listener (hey we have one of those 💀). Run the following command below but update the IP to your Kali VM IP.
+1. This lab we will be creating a stageless payload to limit any issues and save time for the course.  Metasploit created a tool called `msfvenom` to generate custom payloads. You can create executables and scripts that when ran on the target system they will connect to a Metasploit listener (hey we have one of those 💀). Run the following command below but update the IP to your Kali VM IP.
 
 <aside>
 💡
