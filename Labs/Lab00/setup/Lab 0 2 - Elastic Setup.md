@@ -81,7 +81,7 @@ This lab will walk you through setting up Elasticsearch Cloud, installing and en
 
 Now that you have your own Elasticsearch Cloud instance, we need to install an Elastic agent on your Windows VM. This will send that beautiful telemetry back to Elasticsearch and give you the ability manage and push configuration changes to your Windows VM via Elastic Fleet. 
 
-1. From the Security Panel on the left hand side of Elastic, click on `Assets` and then `Agents`
+1. From the Security Panel on the left hand side of Elastic, click on `More` button (three dots), `Assets` and then `Agents`
 
 ![image.png](Lab%200%202%20-%20Elastic%20Setup/image%205.png)
 
