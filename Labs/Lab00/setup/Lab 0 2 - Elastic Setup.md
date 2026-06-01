@@ -131,7 +131,7 @@ Now that you have your own Elasticsearch Cloud instance, we need to install an E
 
 Now that we have an agent enrolled and sending data to Elasticsearch, lets add some integrations to help use collect data from the endpoint. You will to install the `Windows` and `System` integrations.
 
-1. From the left side Security panel, click on `Assets` and click on `Browse integrations`
+1. From the left side Security panel, click on `Data management` and click on `Integrations`
 
 ![image.png](Lab%200%202%20-%20Elastic%20Setup/image%2011.png)
 
