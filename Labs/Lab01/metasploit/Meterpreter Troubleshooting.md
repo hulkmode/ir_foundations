@@ -18,6 +18,6 @@ Kill all the listed sessions one at a time with `sessions -k <Id>`(substitute <I
 
 ## Redo do the following lab
 
-[Lab 2:1 - Enter Meterpreter](Lab%202%201%20-%20Enter%20Meterpreter%2024f86e25cbe58192b9f1ca931ced23a2.md) 
+[Lab 2:1 - Enter Meterpreter](Lab%202%201%20-%20Enter%20Meterpreter.md) 
 
  © 2026 DEATHGroup Labs LLC. All rights reserved.
